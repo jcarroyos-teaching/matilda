@@ -57,7 +57,7 @@
             // use the three.js GLTF loader to add the 3D model to the three.js scene
             const loader = new THREE.GLTFLoader();
             loader.load(
-                'https://raw.githubusercontent.com/jcarroyos-teaching/matilda/refs/heads/main/modelo-3d/scene.gltf',
+                './modelo-3d/scene.gltf',
                 (gltf) => {
                     this.scene.add(gltf.scene);
                 }
